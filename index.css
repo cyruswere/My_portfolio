@@ -1,0 +1,311 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+    color: #505050;
+    font-family: 'Roboto',sans-serif;
+}
+
+.wrapper{
+    width: 70%;
+    margin: auto;
+}
+
+nav{
+    position: absolute;
+    left: 15%;
+    right: 15%;
+    top:0;
+    width: 70%;
+    padding: 1rem 0rem;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav li {
+    margin-right: 2rem;
+}
+
+nav a {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #ccc;
+}
+
+nav li:first-child a {
+    color: #333;
+}
+
+.logos{
+    width: 40px;
+    height: 45px;
+}
+
+.intro-wrapper{
+    height: 95vh;
+    position: relative;
+}
+
+.intro-grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    height: 100%;
+}
+
+.intro-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 30%;
+}
+
+.intro-text h1{
+    font-size: 4.2rem;
+    margin-bottom: .5rem;
+    margin-top: 1rem;
+}
+
+.intro-text p {
+    font-size: 1.7rem;
+    line-height: 2.2rem;
+    margin-bottom: 3rem;
+}
+
+.intro-text button{
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 1rem 3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 8px;
+}
+
+.intro-img{
+    background-image: url('./images/Odesh.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.brands {
+    margin-top: -3rem;
+    z-index:100;
+    position: relative;
+  
+}
+
+.brands .wrapper{
+    background: #fff;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 4px 4px 18px rgba(0,0,0,0.2);
+    border-radius: 10px;
+}
+
+
+.skills {
+    margin-top: 4rem;
+}
+
+.skill h1{
+    font-size: 1.9rem;
+    margin-bottom: .5rem;
+}
+
+.skill.header-text p {
+    font-size: .8rem;
+    color: #ccc;
+    line-height: 1.4rem;
+    font-weight: 500;
+}
+.skill-grid.header-text {
+    margin-bottom: 2.3rem;
+}
+
+.skill-grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 3.3rem ;
+    margin-bottom: 2rem;
+}
+
+.skill-item {
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.2);
+    border-radius: 10px;
+}
+
+.skill-item h2{
+    font-size: 1.3rem;
+    margin-bottom: .5rem;
+}
+
+.skill-item p {
+    font-size: .8rem;
+    line-height: 1.4rem;
+}
+
+
+.ui-card p, .ux-card p {
+    margin-bottom: 1.2rem;
+}
+
+.ui-card{
+    background-image: url('./images/ui.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+.ui-card .overlay{
+    padding: 2rem;
+    background: rgba(118,141,247,0.6);
+    
+}
+
+.ux-card .overlay{
+    padding: 2rem;
+    background: rgba(59,133,239,0.6);
+    overflow-x: hidden;
+}
+
+.ui-card .overlay h2, .ux-card .overlay h2, .ui-card .overlay p, .ux-card .overlay p{
+    color: #fff;
+}
+
+.ux-card{
+    background-image: url('./images/ux.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+
+.ux-card button, 
+.ui-card button {
+    background: transparent;
+    padding: .8rem 2rem;
+    border-radius: 4px;
+    font-weight: 500;
+    text-transform: uppercase;
+    border: 1px solid #fff ;
+    color: #fff;
+}
+
+.skill-content {
+    padding: 2rem;
+    text-align: center;
+}
+
+
+.works{
+    margin-bottom: 8rem;
+}
+
+.work-grid {
+    margin-top: 8rem;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.work-desc {
+    padding-left: 30% !important;
+    padding-right: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.work-desc h1,
+.about-text h1 {
+    font-size: 1.9rem;
+    margin-bottom: .5rem;
+}
+
+.work-desc p, 
+.about-text p {
+    font-size: .8rem;
+    line-height: 1.7rem;
+    margin-bottom: 1rem;
+}
+
+.hobbies li{
+    font-size: .8rem;
+    line-height: 1.4rem;
+    font-weight: 500;
+}
+.work-desc p + p {
+    margin-bottom: 3rem !important;
+}
+
+.work-desc button {
+    background: transparent;
+    padding: .5rem 2rem;
+    border-radius: 4px;
+    font-weight: 500;
+    text-transform: uppercase;
+    border: 1px solid #ccc;
+    color:#4a4a4a;
+}
+
+
+.about{
+    height: 80vh;
+    margin-bottom: 9rem;
+}
+
+.about-grid{
+    height: 100%;
+    display: grid;
+    grid-template-columns: 40% 50%;
+    grid-column-gap: 10% ;
+}
+
+.about-text{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-right: 35%;
+}
+
+.about-img{
+    background-image: url('./images/Odero.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+
+.contact {
+    margin-top: -5rem;
+    background-image: url('./images/amazon.jp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.contact small{
+    font-weight: 700;
+}
+
+.contact h1 {
+    font-size: 1.9rem;
+    margin : 2.3rem 0rem ;
+}
+
+.contact button{
+    background: transparent ;
+    padding: .8rem 2rem;
+    border-radius: 4px;
+    font-weight: 500;
+    text-transform: uppercase;
+    border: 1px solid #ccc;
+    color: #4a4a4a;
+}
+
+.social-icons {
+    margin: 2rem 0rem;
+    display: flex;
+    justify-content: center;
+}
