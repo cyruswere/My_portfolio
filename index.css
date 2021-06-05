@@ -85,7 +85,7 @@ nav li:first-child a {
 }
 
 .intro-img{
-    background-image: url('./images/Odesh.jpg');
+    background-image: url('cyrus.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
