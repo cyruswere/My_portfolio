@@ -11,7 +11,7 @@ $ git clonehttps://github.com/cyruswere/My_portfolio.git
 * Open  the project on VS Code/ your editor of choice
 * Open the project on live server
 ## Live link
-View [live](https://hamida-mstafa.github.io/fev-band/)
+View [live](https://cyruswere.github.io/My_portfolio/)
 ## Known Bugs
 No known bugs yet
 ## Technologies Used
