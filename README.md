@@ -2,7 +2,7 @@
 #### This is a simple HTML. CSS project all about my journey through life till now.
 #### By Cyrus Were
 ## Description
-This is a website thats generally speaks about me and what are my instrests, and also my future plans in life not forgetting where am at cureently. 
+This is a website thats generally speaks about me and what are my instrests, and also my future plans in life not forgetting where am at curently. 
 ## Setup/Installation Requirements
 * Clone the repo
 ```
